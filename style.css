@@ -6,9 +6,9 @@ h1 {
   font-size: 50px;
 }
 .color-name {
-  color: greenyellow;
+  color: rgb(253, 188, 7);
 }
-section {
+.flex-container {
   display: flex;
   margin-bottom: 100px;
 }
@@ -34,4 +34,16 @@ section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experien-item {
+  box-shadow: 10px 15px 40px gray;
+  width: 40%;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 25px;
+}
+.new-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
