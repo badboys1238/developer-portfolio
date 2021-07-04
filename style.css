@@ -45,5 +45,17 @@ h1 {
 .new-area {
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
-  background-position: left;
+}
+#full-web {
+  border-left: 8px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+}
+#baby-web {
+  border-left: 8px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
