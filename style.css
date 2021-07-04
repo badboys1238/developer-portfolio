@@ -1,31 +1,37 @@
-body{
-    font-family: 'Otomanopee One', sans-serif;
-    margin: 0%;
+body {
+  font-family: "Otomanopee One", sans-serif;
+  margin: 0%;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.color-name{
-    color: rgb(252, 196, 44);
+.color-name {
+  color: greenyellow;
 }
-section{
-    display: flex;
+section {
+  display: flex;
+  margin-bottom: 100px;
 }
-.half-width{
-    width: 50%;
-    padding-left: 5%;
+.half-width {
+  width: 50%;
+  padding-left: 5%;
 }
-.half-width img{
-    width: 80%;
+.half-width img {
+  width: 80%;
 }
-.color-button{
-    text-decoration: none;
-    background-color: rgb(255, 165, 47);
-    padding: 10px 40px;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
+.color-button {
+  text-decoration: none;
+  background-image: linear-gradient(yellow, greenyellow);
+  padding: 10px 40px;
+  color: black;
+  border-radius: 5px;
 }
-.top-banner{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
